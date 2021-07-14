@@ -5,4 +5,4 @@ def factorial(n):
         return n * factorial(n-1)
 
 a = int(input("Enter a number : "))
-print("{}! = {}".format(a, factorial(6)))
+print("{}! = {}".format(a, factorial(a)))
